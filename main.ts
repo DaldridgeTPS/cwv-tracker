@@ -1,6 +1,6 @@
 // track_web_vitals.ts
 
-const API_KEY = "";
+const API_KEY = Deno.env.get("API_KEY");
 const URLS = [
   "https://www.theperfumeshop.com/",
   "https://www.theperfumeshop.com/womens/c/C101",
