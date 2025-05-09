@@ -196,5 +196,137 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2025-05-09T13:31:12.073Z",
+    "url": "https://www.theperfumeshop.com/",
+    "field": {
+      "LCP": {
+        "percentile": 4219,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.4961
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.23
+          },
+          {
+            "min": 4000,
+            "proportion": 0.2739
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 396,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.577
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2118
+          },
+          {
+            "min": 500,
+            "proportion": 0.2111
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 27,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.5276
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2034
+          },
+          {
+            "min": 25,
+            "proportion": 0.269
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-09T13:34:00.574Z",
+    "url": "https://www.theperfumeshop.com/womens/c/C101",
+    "field": {
+      "LCP": {
+        "percentile": 3581,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.6449
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1386
+          },
+          {
+            "min": 4000,
+            "proportion": 0.2165
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 906,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.4492
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2054
+          },
+          {
+            "min": 500,
+            "proportion": 0.3453
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 18,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.5519
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2859
+          },
+          {
+            "min": 25,
+            "proportion": 0.1622
+          }
+        ]
+      }
+    }
   }
 ]
