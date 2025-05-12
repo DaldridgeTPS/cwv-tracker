@@ -724,5 +724,203 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2025-05-12T06:25:21.671Z",
+    "url": "https://www.theperfumeshop.com/",
+    "field": {
+      "LCP": {
+        "percentile": 4249,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.4923
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.2312
+          },
+          {
+            "min": 4000,
+            "proportion": 0.2765
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 398,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.5777
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.212
+          },
+          {
+            "min": 500,
+            "proportion": 0.2103
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 28,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.5272
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1977
+          },
+          {
+            "min": 25,
+            "proportion": 0.275
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-12T06:26:23.195Z",
+    "url": "https://www.theperfumeshop.com/womens/c/C101",
+    "field": {
+      "LCP": {
+        "percentile": 3549,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.6425
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1409
+          },
+          {
+            "min": 4000,
+            "proportion": 0.2166
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 890,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.446
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2091
+          },
+          {
+            "min": 500,
+            "proportion": 0.3449
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 18,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.5534
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2816
+          },
+          {
+            "min": 25,
+            "proportion": 0.165
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-12T06:27:42.950Z",
+    "url": "https://www.theperfumeshop.com/dior/sauvage/eau-de-toilette-spray/p/65330EDTJU?varSel=1166180",
+    "field": {
+      "LCP": {
+        "percentile": 1996,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8353
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1117
+          },
+          {
+            "min": 4000,
+            "proportion": 0.053
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 241,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6831
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2123
+          },
+          {
+            "min": 500,
+            "proportion": 0.1046
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 6,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.816
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1006
+          },
+          {
+            "min": 25,
+            "proportion": 0.0834
+          }
+        ]
+      }
+    }
   }
 ]
