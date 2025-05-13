@@ -29,7 +29,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add cwv-log-v2.json
+          git add cwv-log-v3.json
           if git diff --cached --quiet; then
             echo "✅ No changes to commit."
           else

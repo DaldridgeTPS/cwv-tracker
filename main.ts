@@ -17,9 +17,16 @@ const SITES = {
       "https://www.theperfumeshop.com/offers/all-offers/fragrance-offers/c/W30050",
     ],
     pdp: [
-      "https://www.theperfumeshop.com/dior/sauvage/eau-de-toilette-spray/p/65330EDTJU?varSel=1166180",
-      // "https://www.theperfumeshop.com/chanel/bleu-de-chanel/eau-de-parfum-spray/p/12345",
-      // "https://www.theperfumeshop.com/tom-ford/oud-wood/eau-de-parfum-spray/p/67890",
+      "https://www.theperfumeshop.com/carolina-herrera/good-girl/eau-de-parfum-spray/p/23940EDPJU",
+      "https://www.theperfumeshop.com/dior/sauvage/eau-de-parfum-spray/p/65330EDPJU",
+      "https://www.theperfumeshop.com/yves-saint-laurent/libre/eau-de-parfum-spray/p/34300EDPJU",
+      "https://www.theperfumeshop.com/hugo-boss/boss-bottled-night/eau-de-toilette-spray/p/75290EDTJU",
+      "https://www.theperfumeshop.com/chanel/coco-mademoiselle/eau-de-parfum-spray/p/15350EDPJU",
+      "https://www.theperfumeshop.com/chanel/bleu-de-chanel/eau-de-parfum-spray/p/64060EDPJU",
+      "https://www.theperfumeshop.com/dior/miss-dior/eau-de-parfum-spray/p/17800EDPJU",
+      "https://www.theperfumeshop.com/prada/paradoxe/eau-de-parfum-refillable-spray/p/31740EDPJU",
+      "https://www.theperfumeshop.com/tom-ford/black-orchid/eau-de-parfum-spray/p/27600EDPJU",
+      "https://www.theperfumeshop.com/dior/sauvage/eau-de-toilette-spray/p/65330EDTJU",
     ],
   },
   ie: {
@@ -32,14 +39,21 @@ const SITES = {
       "https://www.theperfumeshop.com/ie/offers/all-offers/fragrance-offers/c/W30050",
     ],
     pdp: [
-      // "https://www.theperfumeshop.ie/dior/sauvage/eau-de-toilette-spray/p/65330EDTJU?varSel=1166180",
-      // "https://www.theperfumeshop.ie/chanel/bleu-de-chanel/eau-de-parfum-spray/p/12345",
-      // "https://www.theperfumeshop.ie/tom-ford/oud-wood/eau-de-parfum-spray/p/67890",
+      "https://www.theperfumeshop.com/ie/carolina-herrera/good-girl/eau-de-parfum-spray/p/23940EDPJU",
+      "https://www.theperfumeshop.com/ie/dior/sauvage/eau-de-parfum-spray/p/65330EDPJU",
+      "https://www.theperfumeshop.com/ie/yves-saint-laurent/libre/eau-de-parfum-spray/p/34300EDPJU",
+      "https://www.theperfumeshop.com/ie/hugo-boss/boss-bottled-night/eau-de-toilette-spray/p/75290EDTJU",
+      "https://www.theperfumeshop.com/ie/chanel/coco-mademoiselle/eau-de-parfum-spray/p/15350EDPJU",
+      "https://www.theperfumeshop.com/ie/chanel/bleu-de-chanel/eau-de-parfum-spray/p/64060EDPJU",
+      "https://www.theperfumeshop.com/ie/dior/miss-dior/eau-de-parfum-spray/p/17800EDPJU",
+      "https://www.theperfumeshop.com/ie/prada/paradoxe/eau-de-parfum-refillable-spray/p/31740EDPJU",
+      "https://www.theperfumeshop.com/ie/tom-ford/black-orchid/eau-de-parfum-spray/p/27600EDPJU",
+      "https://www.theperfumeshop.com/ie/dior/sauvage/eau-de-toilette-spray/p/65330EDTJU",
     ],
   },
 };
 
-const LOG_FILE = "cwv-log-v2.json";
+const LOG_FILE = "cwv-log-v3.json";
 let allResults: any[] = [];
 
 // Step 1️⃣ Try to read existing log
@@ -55,66 +69,74 @@ async function fetchVitals(url: string, site: string, pageType: string) {
   console.log(`\n🔄 Starting to process: ${url}`);
   const startTime = Date.now();
 
-  const apiUrl =
-    `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${
-      encodeURIComponent(url)
-    }&category=performance&strategy=mobile&key=${API_KEY}`;
+  const results = [];
 
-  try {
-    console.log(`📡 Fetching data from PageSpeed API...`);
-    const response = await fetch(apiUrl);
-    if (!response.ok) {
-      console.error(`❌ Error fetching data for ${url}:`, response.statusText);
-      return null;
-    }
+  // Fetch both mobile and desktop data
+  for (const strategy of ["mobile", "desktop"]) {
+    const apiUrl =
+      `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${
+        encodeURIComponent(url)
+      }&category=performance&strategy=${strategy}&key=${API_KEY}`;
 
-    console.log(`📥 Processing response data...`);
-    const data = await response.json();
-
-    const fieldExperience = data.loadingExperience?.metrics || {};
-    const fieldMetrics: Record<string, any> = {};
-
-    const metricMapping = {
-      "LARGEST_CONTENTFUL_PAINT_MS": "LCP",
-      "INTERACTION_TO_NEXT_PAINT": "INP",
-      "CUMULATIVE_LAYOUT_SHIFT_SCORE": "CLS",
-    };
-
-    for (const [key, label] of Object.entries(metricMapping)) {
-      if (fieldExperience[key]) {
-        fieldMetrics[label] = {
-          percentile: fieldExperience[key].percentile,
-          category: fieldExperience[key].category,
-          distributions: fieldExperience[key].distributions,
-        };
-      } else {
-        fieldMetrics[label] = {
-          error: "Field data not available",
-        };
+    try {
+      console.log(`📡 Fetching ${strategy} data from PageSpeed API...`);
+      const response = await fetch(apiUrl);
+      if (!response.ok) {
+        console.error(
+          `❌ Error fetching ${strategy} data for ${url}:`,
+          response.statusText,
+        );
+        continue;
       }
+
+      console.log(`📥 Processing ${strategy} response data...`);
+      const data = await response.json();
+
+      const fieldExperience = data.loadingExperience?.metrics || {};
+      const fieldMetrics: Record<string, any> = {};
+
+      const metricMapping = {
+        "LARGEST_CONTENTFUL_PAINT_MS": "LCP",
+        "INTERACTION_TO_NEXT_PAINT": "INP",
+        "CUMULATIVE_LAYOUT_SHIFT_SCORE": "CLS",
+      };
+
+      for (const [key, label] of Object.entries(metricMapping)) {
+        if (fieldExperience[key]) {
+          fieldMetrics[label] = {
+            percentile: fieldExperience[key].percentile,
+            category: fieldExperience[key].category,
+            distributions: fieldExperience[key].distributions,
+          };
+        } else {
+          fieldMetrics[label] = {
+            error: "Field data not available",
+          };
+        }
+      }
+
+      const result = {
+        timestamp: new Date().toISOString(),
+        url,
+        site,
+        pageType,
+        strategy,
+        field: fieldMetrics,
+      };
+
+      results.push(result);
+    } catch (error) {
+      console.error(`❌ Error fetching ${strategy} data for ${url}:`, error);
     }
-
-    const result = {
-      timestamp: new Date().toISOString(),
-      url,
-      site,
-      pageType,
-      field: fieldMetrics,
-    };
-
-    const endTime = Date.now();
-    console.log(
-      `✅ Completed processing ${url} in ${
-        (endTime - startTime) / 1000
-      } seconds`,
-    );
-    console.log(JSON.stringify(result, null, 2));
-
-    return result;
-  } catch (error) {
-    console.error(`❌ Error fetching data for ${url}:`, error);
-    return null;
   }
+
+  const endTime = Date.now();
+  console.log(
+    `✅ Completed processing ${url} in ${(endTime - startTime) / 1000} seconds`,
+  );
+  console.log(JSON.stringify(results, null, 2));
+
+  return results;
 }
 
 // Process all URLs for all sites
@@ -128,11 +150,13 @@ for (const [site, categories] of Object.entries(SITES)) {
     console.log(`\n📑 Processing ${pageType} pages...`);
 
     for (const url of urls) {
-      const result = await fetchVitals(url, site, pageType);
-      if (result) {
-        // Use the batch timestamp instead of individual timestamps
-        result.timestamp = batchTimestamp;
-        allResults.push(result);
+      const results = await fetchVitals(url, site, pageType);
+      if (results) {
+        // Use the batch timestamp for all results
+        results.forEach((result) => {
+          result.timestamp = batchTimestamp;
+          allResults.push(result);
+        });
       }
     }
   }
