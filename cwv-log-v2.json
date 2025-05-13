@@ -1,0 +1,478 @@
+[
+  {
+    "timestamp": "2025-05-13T13:48:43.091Z",
+    "url": "https://www.theperfumeshop.com/",
+    "site": "uk",
+    "pageType": "homepage",
+    "field": {
+      "LCP": {
+        "percentile": 4273,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.4897
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.2304
+          },
+          {
+            "min": 4000,
+            "proportion": 0.2799
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 401,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.5776
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2112
+          },
+          {
+            "min": 500,
+            "proportion": 0.2112
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 28,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.5258
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1966
+          },
+          {
+            "min": 25,
+            "proportion": 0.2776
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-13T13:48:43.091Z",
+    "url": "https://www.theperfumeshop.com/womens/c/C101",
+    "site": "uk",
+    "pageType": "category",
+    "field": {
+      "LCP": {
+        "percentile": 3517,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.6447
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1418
+          },
+          {
+            "min": 4000,
+            "proportion": 0.2135
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 906,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.4462
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2066
+          },
+          {
+            "min": 500,
+            "proportion": 0.3471
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 18,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.5514
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2801
+          },
+          {
+            "min": 25,
+            "proportion": 0.1685
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-13T13:48:43.091Z",
+    "url": "https://www.theperfumeshop.com/offers/all-offers/fragrance-offers/c/W30050",
+    "site": "uk",
+    "pageType": "category",
+    "field": {
+      "LCP": {
+        "percentile": 2357,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7694
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1257
+          },
+          {
+            "min": 4000,
+            "proportion": 0.1049
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 469,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.5707
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1886
+          },
+          {
+            "min": 500,
+            "proportion": 0.2407
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 9,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.756
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1625
+          },
+          {
+            "min": 25,
+            "proportion": 0.0815
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-13T13:48:43.091Z",
+    "url": "https://www.theperfumeshop.com/dior/sauvage/eau-de-toilette-spray/p/65330EDTJU?varSel=1166180",
+    "site": "uk",
+    "pageType": "pdp",
+    "field": {
+      "LCP": {
+        "percentile": 1977,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8391
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1079
+          },
+          {
+            "min": 4000,
+            "proportion": 0.053
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 233,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.688
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2074
+          },
+          {
+            "min": 500,
+            "proportion": 0.1046
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 6,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.8201
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0975
+          },
+          {
+            "min": 25,
+            "proportion": 0.0824
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-13T13:48:43.091Z",
+    "url": "https://www.theperfumeshop.com/ie",
+    "site": "ie",
+    "pageType": "homepage",
+    "field": {
+      "LCP": {
+        "percentile": 4155,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.5204
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.2158
+          },
+          {
+            "min": 4000,
+            "proportion": 0.2639
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 443,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.5451
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2219
+          },
+          {
+            "min": 500,
+            "proportion": 0.233
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 18,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.5918
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2012
+          },
+          {
+            "min": 25,
+            "proportion": 0.2071
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-13T13:48:43.091Z",
+    "url": "https://www.theperfumeshop.com/ie/mens/c/C102",
+    "site": "ie",
+    "pageType": "category",
+    "field": {
+      "LCP": {
+        "percentile": 3057,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.6808
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1375
+          },
+          {
+            "min": 4000,
+            "proportion": 0.1816
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 693,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.4507
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2334
+          },
+          {
+            "min": 500,
+            "proportion": 0.3159
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 18,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.5217
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.3117
+          },
+          {
+            "min": 25,
+            "proportion": 0.1666
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2025-05-13T13:48:43.091Z",
+    "url": "https://www.theperfumeshop.com/ie/offers/all-offers/fragrance-offers/c/W30050",
+    "site": "ie",
+    "pageType": "category",
+    "field": {
+      "LCP": {
+        "percentile": 2069,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8037
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1103
+          },
+          {
+            "min": 4000,
+            "proportion": 0.086
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 571,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.4732
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2617
+          },
+          {
+            "min": 500,
+            "proportion": 0.265
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 4,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.8515
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0841
+          },
+          {
+            "min": 25,
+            "proportion": 0.0644
+          }
+        ]
+      }
+    }
+  }
+]
