@@ -1,11 +1,45 @@
-const API_KEY = Deno.env.get("API_KEY");
-const URLS = [
-  "https://www.theperfumeshop.com/",
-  "https://www.theperfumeshop.com/womens/c/C101",
-  "https://www.theperfumeshop.com/dior/sauvage/eau-de-toilette-spray/p/65330EDTJU?varSel=1166180",
-];
+// Load environment variables from .env file
+import { load } from "https://deno.land/std@0.220.1/dotenv/mod.ts";
+await load({ export: true });
 
-const LOG_FILE = "cwv-log.json";
+const API_KEY = Deno.env.get("API_KEY");
+console.log("🔑 API Key present:", API_KEY ? "Yes" : "No");
+console.log("🔑 API Key length:", API_KEY?.length || 0);
+
+const SITES = {
+  uk: {
+    homepage: [
+      "https://www.theperfumeshop.com/",
+    ],
+    category: [
+      "https://www.theperfumeshop.com/womens/c/C101",
+      "https://www.theperfumeshop.com/mens/c/C102",
+      "https://www.theperfumeshop.com/offers/all-offers/fragrance-offers/c/W30050",
+    ],
+    pdp: [
+      "https://www.theperfumeshop.com/dior/sauvage/eau-de-toilette-spray/p/65330EDTJU?varSel=1166180",
+      // "https://www.theperfumeshop.com/chanel/bleu-de-chanel/eau-de-parfum-spray/p/12345",
+      // "https://www.theperfumeshop.com/tom-ford/oud-wood/eau-de-parfum-spray/p/67890",
+    ],
+  },
+  ie: {
+    homepage: [
+      "https://www.theperfumeshop.com/ie",
+    ],
+    category: [
+      "https://www.theperfumeshop.com/ie/womens/c/C101",
+      "https://www.theperfumeshop.com/ie/mens/c/C102",
+      "https://www.theperfumeshop.com/ie/offers/all-offers/fragrance-offers/c/W30050",
+    ],
+    pdp: [
+      // "https://www.theperfumeshop.ie/dior/sauvage/eau-de-toilette-spray/p/65330EDTJU?varSel=1166180",
+      // "https://www.theperfumeshop.ie/chanel/bleu-de-chanel/eau-de-parfum-spray/p/12345",
+      // "https://www.theperfumeshop.ie/tom-ford/oud-wood/eau-de-parfum-spray/p/67890",
+    ],
+  },
+};
+
+const LOG_FILE = "cwv-log-v2.json";
 let allResults: any[] = [];
 
 // Step 1️⃣ Try to read existing log
@@ -17,7 +51,7 @@ try {
   console.log(`🆕 No existing log file found. Will create a new one.`);
 }
 
-async function fetchVitals(url: string) {
+async function fetchVitals(url: string, site: string, pageType: string) {
   console.log(`\n🔄 Starting to process: ${url}`);
   const startTime = Date.now();
 
@@ -63,6 +97,8 @@ async function fetchVitals(url: string) {
     const result = {
       timestamp: new Date().toISOString(),
       url,
+      site,
+      pageType,
       field: fieldMetrics,
     };
 
@@ -81,12 +117,24 @@ async function fetchVitals(url: string) {
   }
 }
 
-console.log(`🚀 Starting to process ${URLS.length} URLs...`);
+// Process all URLs for all sites
+const batchTimestamp = new Date().toISOString();
+console.log(`🚀 Starting to process URLs...`);
 
-for (const url of URLS) {
-  const result = await fetchVitals(url);
-  if (result) {
-    allResults.push(result);
+for (const [site, categories] of Object.entries(SITES)) {
+  console.log(`\n📊 Processing ${site.toUpperCase()} site...`);
+
+  for (const [pageType, urls] of Object.entries(categories)) {
+    console.log(`\n📑 Processing ${pageType} pages...`);
+
+    for (const url of urls) {
+      const result = await fetchVitals(url, site, pageType);
+      if (result) {
+        // Use the batch timestamp instead of individual timestamps
+        result.timestamp = batchTimestamp;
+        allResults.push(result);
+      }
+    }
   }
 }
 
