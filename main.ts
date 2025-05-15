@@ -70,6 +70,8 @@ async function fetchVitals(url: string, site: string, pageType: string) {
   const startTime = Date.now();
 
   const results = [];
+  const maxRetries = 3;
+  const retryDelay = 2000; // 2 seconds
 
   // Fetch both mobile and desktop data
   for (const strategy of ["mobile", "desktop"]) {
@@ -78,55 +80,88 @@ async function fetchVitals(url: string, site: string, pageType: string) {
         encodeURIComponent(url)
       }&category=performance&strategy=${strategy}&key=${API_KEY}`;
 
-    try {
-      console.log(`📡 Fetching ${strategy} data from PageSpeed API...`);
-      const response = await fetch(apiUrl);
-      if (!response.ok) {
-        console.error(
-          `❌ Error fetching ${strategy} data for ${url}:`,
-          response.statusText,
+    let retryCount = 0;
+    while (retryCount < maxRetries) {
+      try {
+        console.log(
+          `📡 Fetching ${strategy} data from PageSpeed API... (Attempt ${
+            retryCount + 1
+          }/${maxRetries})`,
         );
-        continue;
-      }
+        const response = await fetch(apiUrl);
 
-      console.log(`📥 Processing ${strategy} response data...`);
-      const data = await response.json();
+        if (response.status === 429) {
+          console.log(
+            `⚠️ Rate limit hit. Waiting ${
+              retryDelay / 1000
+            } seconds before retry...`,
+          );
+          await new Promise((resolve) => setTimeout(resolve, retryDelay));
+          retryCount++;
+          continue;
+        }
 
-      const fieldExperience = data.loadingExperience?.metrics || {};
-      const fieldMetrics: Record<string, any> = {};
+        if (!response.ok) {
+          console.error(
+            `❌ Error fetching ${strategy} data for ${url}:`,
+            response.status,
+            response.statusText,
+          );
+          if (response.status >= 500) {
+            // Server errors (5xx) are worth retrying
+            retryCount++;
+            await new Promise((resolve) => setTimeout(resolve, retryDelay));
+            continue;
+          }
+          // For other errors (4xx), don't retry
+          break;
+        }
 
-      const metricMapping = {
-        "LARGEST_CONTENTFUL_PAINT_MS": "LCP",
-        "INTERACTION_TO_NEXT_PAINT": "INP",
-        "CUMULATIVE_LAYOUT_SHIFT_SCORE": "CLS",
-      };
+        console.log(`📥 Processing ${strategy} response data...`);
+        const data = await response.json();
 
-      for (const [key, label] of Object.entries(metricMapping)) {
-        if (fieldExperience[key]) {
-          fieldMetrics[label] = {
-            percentile: fieldExperience[key].percentile,
-            category: fieldExperience[key].category,
-            distributions: fieldExperience[key].distributions,
-          };
-        } else {
-          fieldMetrics[label] = {
-            error: "Field data not available",
-          };
+        const fieldExperience = data.loadingExperience?.metrics || {};
+        const fieldMetrics: Record<string, any> = {};
+
+        const metricMapping = {
+          "LARGEST_CONTENTFUL_PAINT_MS": "LCP",
+          "INTERACTION_TO_NEXT_PAINT": "INP",
+          "CUMULATIVE_LAYOUT_SHIFT_SCORE": "CLS",
+        };
+
+        for (const [key, label] of Object.entries(metricMapping)) {
+          if (fieldExperience[key]) {
+            fieldMetrics[label] = {
+              percentile: fieldExperience[key].percentile,
+              category: fieldExperience[key].category,
+              distributions: fieldExperience[key].distributions,
+            };
+          } else {
+            fieldMetrics[label] = {
+              error: "Field data not available",
+            };
+          }
+        }
+
+        const result = {
+          timestamp: new Date().toISOString(),
+          url,
+          site,
+          pageType,
+          strategy,
+          field: fieldMetrics,
+        };
+
+        results.push(result);
+        break; // Success, exit retry loop
+      } catch (error) {
+        console.error(`❌ Error fetching ${strategy} data for ${url}:`, error);
+        retryCount++;
+        if (retryCount < maxRetries) {
+          console.log(`🔄 Retrying in ${retryDelay / 1000} seconds...`);
+          await new Promise((resolve) => setTimeout(resolve, retryDelay));
         }
       }
-
-      const result = {
-        timestamp: new Date().toISOString(),
-        url,
-        site,
-        pageType,
-        strategy,
-        field: fieldMetrics,
-      };
-
-      results.push(result);
-    } catch (error) {
-      console.error(`❌ Error fetching ${strategy} data for ${url}:`, error);
     }
   }
 

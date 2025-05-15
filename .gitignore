@@ -1,4 +1,5 @@
 .env
 .env.local
+deno.lock
 # *.log
 # cwv-log*.json 
