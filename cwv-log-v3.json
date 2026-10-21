@@ -1944453,5 +1944453,3818 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/",
+    "site": "uk",
+    "pageType": "homepage",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2339,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7774
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1382
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0844
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 525,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.5407
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1996
+          },
+          {
+            "min": 500,
+            "proportion": 0.2597
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 14,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.6275
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2224
+          },
+          {
+            "min": 25,
+            "proportion": 0.15
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/",
+    "site": "uk",
+    "pageType": "homepage",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 1533,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8961
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.0623
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0416
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 245,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7124
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1587
+          },
+          {
+            "min": 500,
+            "proportion": 0.1289
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 12,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.6848
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1793
+          },
+          {
+            "min": 25,
+            "proportion": 0.1359
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/womens/c/C101",
+    "site": "uk",
+    "pageType": "category",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2471,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7529
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1409
+          },
+          {
+            "min": 4000,
+            "proportion": 0.1062
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 924,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.437
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1932
+          },
+          {
+            "min": 500,
+            "proportion": 0.3698
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 9,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7955
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0936
+          },
+          {
+            "min": 25,
+            "proportion": 0.1109
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/womens/c/C101",
+    "site": "uk",
+    "pageType": "category",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2561,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7269
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1604
+          },
+          {
+            "min": 4000,
+            "proportion": 0.1127
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 367,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6611
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1442
+          },
+          {
+            "min": 500,
+            "proportion": 0.1947
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 15,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.6359
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2017
+          },
+          {
+            "min": 25,
+            "proportion": 0.1625
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/mens/c/C102",
+    "site": "uk",
+    "pageType": "category",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2470,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7563
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1297
+          },
+          {
+            "min": 4000,
+            "proportion": 0.1139
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 864,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.4707
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1717
+          },
+          {
+            "min": 500,
+            "proportion": 0.3576
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 8,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.8195
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0842
+          },
+          {
+            "min": 25,
+            "proportion": 0.0964
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/mens/c/C102",
+    "site": "uk",
+    "pageType": "category",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2113,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.798
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1051
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0968
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 500,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6333
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1213
+          },
+          {
+            "min": 500,
+            "proportion": 0.2453
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 19,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.5441
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.293
+          },
+          {
+            "min": 25,
+            "proportion": 0.1629
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/offers/all-offers/fragrance-offers/c/W30050",
+    "site": "uk",
+    "pageType": "category",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2896,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.6928
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1541
+          },
+          {
+            "min": 4000,
+            "proportion": 0.1531
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 723,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.4978
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1674
+          },
+          {
+            "min": 500,
+            "proportion": 0.3349
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 19,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.6053
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2182
+          },
+          {
+            "min": 25,
+            "proportion": 0.1765
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/offers/all-offers/fragrance-offers/c/W30050",
+    "site": "uk",
+    "pageType": "category",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2490,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7506
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1276
+          },
+          {
+            "min": 4000,
+            "proportion": 0.1218
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 193,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7553
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1234
+          },
+          {
+            "min": 500,
+            "proportion": 0.1214
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 35,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.3315
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2685
+          },
+          {
+            "min": 25,
+            "proportion": 0.4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/carolina-herrera/good-girl/eau-de-parfum-spray/p/23940EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 1972,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.841
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.0994
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0596
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 293,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6457
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2063
+          },
+          {
+            "min": 500,
+            "proportion": 0.148
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 11,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7329
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2287
+          },
+          {
+            "min": 25,
+            "proportion": 0.0384
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/carolina-herrera/good-girl/eau-de-parfum-spray/p/23940EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2186,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7891
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.12
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0909
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 242,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7191
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1457
+          },
+          {
+            "min": 500,
+            "proportion": 0.1352
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 9,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.753
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.138
+          },
+          {
+            "min": 25,
+            "proportion": 0.109
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/dior/sauvage/eau-de-parfum-spray/p/65330EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 1986,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8474
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.0936
+          },
+          {
+            "min": 4000,
+            "proportion": 0.059
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 258,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6967
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1868
+          },
+          {
+            "min": 500,
+            "proportion": 0.1165
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 5,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.8802
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0587
+          },
+          {
+            "min": 25,
+            "proportion": 0.061
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/dior/sauvage/eau-de-parfum-spray/p/65330EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2141,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8183
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1266
+          },
+          {
+            "min": 4000,
+            "proportion": 0.055
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 142,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.8258
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1267
+          },
+          {
+            "min": 500,
+            "proportion": 0.0475
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 9,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7949
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1136
+          },
+          {
+            "min": 25,
+            "proportion": 0.0916
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/yves-saint-laurent/libre/eau-de-parfum-spray/p/34300EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2165,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8261
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1233
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0506
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 314,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6643
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1944
+          },
+          {
+            "min": 500,
+            "proportion": 0.1413
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 6,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.9098
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0651
+          },
+          {
+            "min": 25,
+            "proportion": 0.0251
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/yves-saint-laurent/libre/eau-de-parfum-spray/p/34300EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2288,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7759
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1758
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0483
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 292,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7484
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.0755
+          },
+          {
+            "min": 500,
+            "proportion": 0.1761
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 7,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.8168
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1166
+          },
+          {
+            "min": 25,
+            "proportion": 0.0666
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/hugo-boss/boss-bottled-night/eau-de-toilette-spray/p/75290EDTJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2024,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8375
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.121
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0415
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 303,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6701
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1564
+          },
+          {
+            "min": 500,
+            "proportion": 0.1734
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7438
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2192
+          },
+          {
+            "min": 25,
+            "proportion": 0.037
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/hugo-boss/boss-bottled-night/eau-de-toilette-spray/p/75290EDTJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/chanel/coco-mademoiselle/eau-de-parfum-spray/p/15350EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2070,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8381
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1105
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0514
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 253,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6941
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1848
+          },
+          {
+            "min": 500,
+            "proportion": 0.1211
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 4,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.9031
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0518
+          },
+          {
+            "min": 25,
+            "proportion": 0.0451
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/chanel/coco-mademoiselle/eau-de-parfum-spray/p/15350EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2248,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.783
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1436
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0735
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 128,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.8223
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.0896
+          },
+          {
+            "min": 500,
+            "proportion": 0.0882
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 6,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.86
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0567
+          },
+          {
+            "min": 25,
+            "proportion": 0.0833
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/chanel/bleu-de-chanel/eau-de-parfum-spray/p/64060EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 1880,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.86
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.0921
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0479
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 214,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7323
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1625
+          },
+          {
+            "min": 500,
+            "proportion": 0.1052
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 4,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.8949
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0535
+          },
+          {
+            "min": 25,
+            "proportion": 0.0516
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/chanel/bleu-de-chanel/eau-de-parfum-spray/p/64060EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2254,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7883
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1722
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0395
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 128,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.8282
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.0802
+          },
+          {
+            "min": 500,
+            "proportion": 0.0916
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 6,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.8636
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0645
+          },
+          {
+            "min": 25,
+            "proportion": 0.072
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/dior/miss-dior/eau-de-parfum-spray/p/17800EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 1779,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8779
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.076
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0461
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 245,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.71
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1758
+          },
+          {
+            "min": 500,
+            "proportion": 0.1142
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 6,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.8985
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0494
+          },
+          {
+            "min": 25,
+            "proportion": 0.0521
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/dior/miss-dior/eau-de-parfum-spray/p/17800EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/prada/paradoxe/eau-de-parfum-refillable-spray/p/31740EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 1915,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8537
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1068
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0395
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 274,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6801
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1792
+          },
+          {
+            "min": 500,
+            "proportion": 0.1407
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7377
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2163
+          },
+          {
+            "min": 25,
+            "proportion": 0.046
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/prada/paradoxe/eau-de-parfum-refillable-spray/p/31740EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/tom-ford/black-orchid/eau-de-parfum-spray/p/27600EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2229,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7962
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.141
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0628
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 338,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6377
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1856
+          },
+          {
+            "min": 500,
+            "proportion": 0.1767
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 6,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.8947
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0645
+          },
+          {
+            "min": 25,
+            "proportion": 0.0408
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/tom-ford/black-orchid/eau-de-parfum-spray/p/27600EDPJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "error": "Field data not available"
+      },
+      "INP": {
+        "percentile": 120,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.8365
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1239
+          },
+          {
+            "min": 500,
+            "proportion": 0.0396
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 16,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.6466
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1878
+          },
+          {
+            "min": 25,
+            "proportion": 0.1657
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/dior/sauvage/eau-de-toilette-spray/p/65330EDTJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2131,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8178
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1253
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0568
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 255,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6892
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1712
+          },
+          {
+            "min": 500,
+            "proportion": 0.1396
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 5,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.8925
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0475
+          },
+          {
+            "min": 25,
+            "proportion": 0.0599
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/dior/sauvage/eau-de-toilette-spray/p/65330EDTJU",
+    "site": "uk",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2562,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7131
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.2404
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0465
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 216,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7096
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1892
+          },
+          {
+            "min": 500,
+            "proportion": 0.1012
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7399
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1386
+          },
+          {
+            "min": 25,
+            "proportion": 0.1215
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie",
+    "site": "ie",
+    "pageType": "homepage",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 1935,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8434
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.0954
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0612
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 604,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.4862
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2152
+          },
+          {
+            "min": 500,
+            "proportion": 0.2986
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 11,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.6775
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1891
+          },
+          {
+            "min": 25,
+            "proportion": 0.1334
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie",
+    "site": "ie",
+    "pageType": "homepage",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 1485,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8938
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.0637
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0425
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 168,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7753
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1424
+          },
+          {
+            "min": 500,
+            "proportion": 0.0823
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 12,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.6752
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2055
+          },
+          {
+            "min": 25,
+            "proportion": 0.1193
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/womens/c/C101",
+    "site": "ie",
+    "pageType": "category",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 3378,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.6553
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1489
+          },
+          {
+            "min": 4000,
+            "proportion": 0.1958
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 1156,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.3969
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1468
+          },
+          {
+            "min": 500,
+            "proportion": 0.4562
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 9,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7912
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0908
+          },
+          {
+            "min": 25,
+            "proportion": 0.118
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/womens/c/C101",
+    "site": "ie",
+    "pageType": "category",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/mens/c/C102",
+    "site": "ie",
+    "pageType": "category",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 3500,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.6697
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1158
+          },
+          {
+            "min": 4000,
+            "proportion": 0.2145
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 1261,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.3582
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1763
+          },
+          {
+            "min": 500,
+            "proportion": 0.4655
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 8,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.8132
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0824
+          },
+          {
+            "min": 25,
+            "proportion": 0.1044
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/mens/c/C102",
+    "site": "ie",
+    "pageType": "category",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/offers/all-offers/fragrance-offers/c/W30050",
+    "site": "ie",
+    "pageType": "category",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 3015,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.6656
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.2012
+          },
+          {
+            "min": 4000,
+            "proportion": 0.1331
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 860,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.4468
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1395
+          },
+          {
+            "min": 500,
+            "proportion": 0.4137
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 35,
+        "category": "SLOW",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.6393
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0522
+          },
+          {
+            "min": 25,
+            "proportion": 0.3085
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/offers/all-offers/fragrance-offers/c/W30050",
+    "site": "ie",
+    "pageType": "category",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/carolina-herrera/good-girl/eau-de-parfum-spray/p/23940EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2285,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7963
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1332
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0705
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 245,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7114
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1463
+          },
+          {
+            "min": 500,
+            "proportion": 0.1423
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 5,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.8081
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1562
+          },
+          {
+            "min": 25,
+            "proportion": 0.0357
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/carolina-herrera/good-girl/eau-de-parfum-spray/p/23940EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/dior/sauvage/eau-de-parfum-spray/p/65330EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2205,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.8019
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1499
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0482
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 312,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6547
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2063
+          },
+          {
+            "min": 500,
+            "proportion": 0.139
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 4,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.9267
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0349
+          },
+          {
+            "min": 25,
+            "proportion": 0.0384
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/dior/sauvage/eau-de-parfum-spray/p/65330EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/yves-saint-laurent/libre/eau-de-parfum-spray/p/34300EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2872,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.676
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.2552
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0688
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 345,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.5965
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2808
+          },
+          {
+            "min": 500,
+            "proportion": 0.1227
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 6,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7843
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2057
+          },
+          {
+            "min": 25,
+            "proportion": 0.01
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/yves-saint-laurent/libre/eau-de-parfum-spray/p/34300EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/hugo-boss/boss-bottled-night/eau-de-toilette-spray/p/75290EDTJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2448,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7476
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1951
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0573
+          }
+        ]
+      },
+      "INP": {
+        "error": "Field data not available"
+      },
+      "CLS": {
+        "percentile": 4,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.8242
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0744
+          },
+          {
+            "min": 25,
+            "proportion": 0.1014
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/hugo-boss/boss-bottled-night/eau-de-toilette-spray/p/75290EDTJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/chanel/coco-mademoiselle/eau-de-parfum-spray/p/15350EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2406,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7633
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1526
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0842
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 323,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.634
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.218
+          },
+          {
+            "min": 500,
+            "proportion": 0.148
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 4,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.9101
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0293
+          },
+          {
+            "min": 25,
+            "proportion": 0.0606
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/chanel/coco-mademoiselle/eau-de-parfum-spray/p/15350EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/chanel/bleu-de-chanel/eau-de-parfum-spray/p/64060EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2262,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.794
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1631
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0429
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 284,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6762
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2672
+          },
+          {
+            "min": 500,
+            "proportion": 0.0566
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 3,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.874
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0756
+          },
+          {
+            "min": 25,
+            "proportion": 0.0504
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/chanel/bleu-de-chanel/eau-de-parfum-spray/p/64060EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/dior/miss-dior/eau-de-parfum-spray/p/17800EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2384,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7702
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1458
+          },
+          {
+            "min": 4000,
+            "proportion": 0.084
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 408,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6013
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1872
+          },
+          {
+            "min": 500,
+            "proportion": 0.2115
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 9,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7581
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1385
+          },
+          {
+            "min": 25,
+            "proportion": 0.1034
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/dior/miss-dior/eau-de-parfum-spray/p/17800EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/prada/paradoxe/eau-de-parfum-refillable-spray/p/31740EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2613,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7205
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.2021
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0774
+          }
+        ]
+      },
+      "INP": {
+        "error": "Field data not available"
+      },
+      "CLS": {
+        "percentile": 7,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7738
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.2074
+          },
+          {
+            "min": 25,
+            "proportion": 0.0188
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/prada/paradoxe/eau-de-parfum-refillable-spray/p/31740EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/tom-ford/black-orchid/eau-de-parfum-spray/p/27600EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2384,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.7702
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1458
+          },
+          {
+            "min": 4000,
+            "proportion": 0.084
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 408,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.6013
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1872
+          },
+          {
+            "min": 500,
+            "proportion": 0.2115
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 9,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7581
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1385
+          },
+          {
+            "min": 25,
+            "proportion": 0.1034
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/tom-ford/black-orchid/eau-de-parfum-spray/p/27600EDPJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/dior/sauvage/eau-de-toilette-spray/p/65330EDTJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "mobile",
+    "field": {
+      "LCP": {
+        "percentile": 2706,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.717
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.2065
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0765
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 394,
+        "category": "AVERAGE",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.5933
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.2085
+          },
+          {
+            "min": 500,
+            "proportion": 0.1982
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 4,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.9227
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.0384
+          },
+          {
+            "min": 25,
+            "proportion": 0.0389
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-10-21T11:04:13.656Z",
+    "url": "https://www.theperfumeshop.com/ie/dior/sauvage/eau-de-toilette-spray/p/65330EDTJU",
+    "site": "ie",
+    "pageType": "pdp",
+    "strategy": "desktop",
+    "field": {
+      "LCP": {
+        "percentile": 2175,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 2500,
+            "proportion": 0.797
+          },
+          {
+            "min": 2500,
+            "max": 4000,
+            "proportion": 0.1234
+          },
+          {
+            "min": 4000,
+            "proportion": 0.0796
+          }
+        ]
+      },
+      "INP": {
+        "percentile": 181,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 200,
+            "proportion": 0.7661
+          },
+          {
+            "min": 200,
+            "max": 500,
+            "proportion": 0.1273
+          },
+          {
+            "min": 500,
+            "proportion": 0.1067
+          }
+        ]
+      },
+      "CLS": {
+        "percentile": 10,
+        "category": "FAST",
+        "distributions": [
+          {
+            "min": 0,
+            "max": 10,
+            "proportion": 0.7213
+          },
+          {
+            "min": 10,
+            "max": 25,
+            "proportion": 0.1577
+          },
+          {
+            "min": 25,
+            "proportion": 0.121
+          }
+        ]
+      }
+    }
   }
 ]
